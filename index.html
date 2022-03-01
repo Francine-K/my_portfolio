@@ -1,43 +1,77 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-    <body>
-        <div id="portfolio" class="header">
-            <h1>
-             Francine Karpeh
-            </h1>
-        </div>
-        <nav class="border-bottom">
-            <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="about_me.html">About Me</a></li>
-                <li><a href="socials.html">Socials</a></li>
-            </ul>
-        </nav>
-        <div class="center">
-            <div class="circle1">Front-End/UX Design</div>
-            <div class="circle2">Back-End/Flask</div>
-            <div class="circle3">School Projects</div>
-        </div>
-        <div class="container footer">
-            <p>Let's Stay in Touch</p>
-            <form>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+<html lang="en">
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+  <head>
+    <title>Francine's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-                <label for="subject"> Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">FK</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="socials.html">Socials</a></li>
+          <li><a href="contact_me.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid text-center">
+      <div class="page-header">
+        <h1>
+          Francine Karpeh
+        </h1>
+      </div>
+      <h2 class="text-info">
+        Teacher || Junior Engineer || UX Designer
+      </h2>
+    </div>
+    <br>
+    <div class="grid-container center">
+      <div class="border">
+       <div id="A" class="thumbnail">
+          <a href="images/computer_program.jpg">
+            <img src="images/computer_program.jpg" alt="Computer Program" style="width:100%">
+            <div class="caption">
+              <p>Front-End/UX Design</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="border">
+         <div id="B" class="rasppi thumbnail">
+          <a href="images/raspberry_pi.jpg">
+            <img src="images/raspberry_pi.jpg" alt="Raspberry Pi" style="width:100%">
+            <div class="caption">
+              <p>School Projects</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="border">
+        <div id="C" class="thumbnail">
+          <a href="images/web_design.jpg">
+            <img src="images/web_design.jpg" alt="Web Design" style="width:100%">
+            <div class="caption">
+              <p>Web Design</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="border-top">
+      <span>© 2022 Francine Karpeh</span>
+    </div>
+  </body>
 
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        <div class="border-top">
-          <span>© 2020 Francine Karpeh</span>
-        </div>
-    </body>
 </html>
